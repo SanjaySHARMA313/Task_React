@@ -1,0 +1,26 @@
+.items{
+    background-color: rgba(128, 128, 128, 0.884);
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    width:90%;
+    margin:4px 0px 10px 10px ;
+    padding: 3%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position:static;
+}
+.items:hover{border:2px solid green}
+.details{
+    width:50%;
+}
+.image{
+    width:185px;
+    border:1px solid whitesmoke;
+    text-align:flex-end;
+    box-shadow: 3px 3px 3px 3px black ;
+    height:200px;
+}
+.image:hover{border:3px solid whitesmoke;
+
+
+box-shadow:4px px 4px 4px black}
